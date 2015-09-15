@@ -58,7 +58,6 @@ header h1 {
 }
 
 header h1:before {
-  content: "./ ";
   font-size: 24px;
 }
 
@@ -134,7 +133,6 @@ ul li {
 }
 
 ul li:before {
-  content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
   color: #b5e853;
@@ -244,4 +242,51 @@ a {
 
 .cf {
   zoom:1;
+}
+
+#footer { 
+  padding:1em; 
+  text-align:center; 
+  font-size:80%; 
+}
+
+/* this trick forces a non-floating completion to the entire banner div */
+div.banner {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.banner ul {
+  list-style-type:none;
+  float: left;
+  margin: 0 0 2em 7.5%;
+  padding:0;
+  overflow:hidden;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.banner li {
+  float: left;
+}
+
+.banner a:link,a:visited {
+  display:block;
+  width:120px;
+  font-weight:bold;
+  color:#ebe9ee;
+  background-color:#767fc2;
+  background-image:url('button-link.png');
+  background-size:contain;
+  text-align:center;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  padding:4px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+.banner a:hover,a:active {
+  background-color: #5a68ab;
+  background-image:url('button-hover.png');
 }
