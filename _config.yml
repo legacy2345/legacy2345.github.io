@@ -1,0 +1,5 @@
+name: ""
+description: ""
+permalink: pretty
+paginate: 10
+markdown: kramdown

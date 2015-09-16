@@ -38,9 +38,8 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed #CA2F00;
-  padding: 20px 0;
-  margin: 0 0 40px 0;
+  padding: 0;
+  margin: 0 0 18px 0;
 }
 
 header h1 {
@@ -261,7 +260,7 @@ div.banner {
 .banner ul {
   list-style-type:none;
   float: left;
-  margin: 0 0 2em 7.5%;
+  margin: 0 0 0 7.5%;
   padding:0;
   overflow:hidden;
   border-radius: 5px 5px 5px 5px;
