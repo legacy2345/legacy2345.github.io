@@ -244,9 +244,10 @@ a {
 }
 
 #footer { 
-  padding:1em; 
-  text-align:center; 
-  font-size:80%; 
+  padding: 1em; 
+  text-align: center; 
+  color: #CBA068;
+  font-size: 75%; 
 }
 
 /* this trick forces a non-floating completion to the entire banner div */
