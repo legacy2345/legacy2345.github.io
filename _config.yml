@@ -1,7 +1,6 @@
 name: ""
 description: ""
-domain: development
-baseurl: "http://legacy2345.github.io/development"
+baseurl: "http://legacy2345.github.io/"
 
 permalink: pretty
 paginate: 10
