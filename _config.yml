@@ -1,6 +1,5 @@
 name: ""
 description: ""
-baseurl: "http://legacy2345.github.io/"
 
 permalink: pretty
 paginate: 10
