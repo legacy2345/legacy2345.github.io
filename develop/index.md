@@ -5,7 +5,8 @@ layout: default
 
 # Legacy 2345 Development
 
-Legacy 2345 development is currently being hosted at [Github](https://github.com/legacy2345/development).
+Legacy 2345 development is currently being hosted at
+[Github](https://github.com/legacy2345/development). [![Build Status](https://travis-ci.org/legacy2345/v3.svg?branch=master)](https://travis-ci.org/legacy2345/v3)
 
 The [development and design wiki](https://github.com/legacy2345/development/wiki) holds design documentation.
 
