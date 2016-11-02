@@ -10,4 +10,4 @@ Legacy 2345 development is currently being hosted at
 
 The [development and design wiki](https://github.com/legacy2345/development/wiki) holds design documentation.
 
-You can report or review bugs at the [bugtracker](https://github.com/legacy2345/development/issues).
+You can report or review bugs at the [bugtracker](https://github.com/legacy2345/v3/issues).
