@@ -26,8 +26,21 @@ ript>
       </p>
       <ul>
         <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about/">About</a></li>
-        <li><a href="{{ site.baseurl }}/develop/">Develop</a></li>
+        <li class="dropdown">
+          <a href="{{ site.baseurl }}/about/">About</a>
+          <div class="dropdown-content">
+            <a href="{{ site.baseurl }}/about/">The Game</a>
+            <a href="{{ site.baseurl }}/about/">Wiki</a>
+            <a href="{{ site.baseurl }}/about/">Forums</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="{{ site.baseurl }}/develop/">Develop</a>
+          <div class="dropdown-content">
+            <a href="https://github.com/legacy2345/v3/issues">Issues</a>
+            <a href="https://github.com/legacy2345/v3">Sources</a>
+          </div>
+        </li>
         <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
       </ul>
       </div>
